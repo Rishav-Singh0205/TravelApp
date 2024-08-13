@@ -1,7 +1,5 @@
 const express = require("express");
-const CryptoJS = require('crypto-js');
-const User = require("../modal/user.modal")
-const jwt = require('jsonwebtoken');
+
 
 const signupHandler = require("../controllers/signupController")
 const loginHandler = require("../controllers/loginController")
